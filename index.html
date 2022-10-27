@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" integrity="sha512-ZfKn7az0YmtPUojZnRXO4CUdt3pn+ogBAyGbqGplrCIR5B/tQwPGtF2q29t+zQj6mC/20w4sSl0cF5F3r0HKSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!--navbar-->
+    <nav class="navbar">
+        <div class="container-fluid ">
+            <nav class="navbar bg-light fixed-top">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                  </button>
+
+<!--navbar search-->
+                    <img src="img/logo.PNG" class="logo" alt="">
+                        <div class="search-box">
+                            <input type="text" class="search-bar" placeholder="search">
+                            <button class="search-btn"><img src="img/search.PNG" alt=""></button>
+                        </div>
+<!--navbar profile and info-->
+                    <div class="user-options">
+                        <img src="img/grid.PNG" class="icon" alt="">
+                        <img src="img/bell.PNG" class="icon" alt="">
+                        <div class="user-dp">
+                        <img src="img/profile.png" alt="">
+                    </div>
+                    </div>
+                   <!--sidebar btn-->
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header ">
+                            <img src="img/logo.PNG" class="logo yt" alt="">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                    
+<!-- sidebar -->
+                    <div class=" offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item ">
+                            <a href="#" class="links active "><img src="img/home.PNG" alt="">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/explore.PNG" alt="">explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/subscription.PNG" alt="">subscription</a>
+                        </li>
+                        <li class="br">
+                            <br>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/library.PNG" alt="">library</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/history.PNG" alt="">history</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/your-video.PNG" alt="">your videoS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/watch-later.PNG" alt="">watch later</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="links"><img src="img/show more.PNG" alt="">show more</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+
+
+<!--tablist search-->   
+        <div class="filters ">
+            <button class="filter-options active">all</button>
+            <button class="filter-options">Html</button>
+            <button class="filter-options">Css</button>
+            <button class="filter-options">bootstrap</button>
+            <button class="filter-options">Frontend</button>
+            <button class="filter-options">Javascript</button>
+            <button class="filter-options">Dom</button>
+            <button class="filter-options">artificial intelligence</button>
+            <button class="filter-options">machine learning</button>
+            <button class="filter-options">trending</button>
+            <button class="filter-options">web development</button>
+            <button class="filter-options">python</button>
+            <button class="filter-options">entertainment</button>
+            <button class="filter-options">marvel</button>
+            <button class="filter-options">react</button>
+            <button class="filter-options">artificial intelligence</button>
+            <button class="filter-options">machine learning</button>
+            <button class="filter-options">trending</button>
+        </div>
+    </nav>
+
+<!-- videos -->
+    <div class="video-container container-fluid">
+        <!--<div class="video">
+            <img src="img/profile-pic.png" class="thumbnail" alt="">
+                <div class="content">
+                    <img src="img/profile-pic.png" class="channel-icon" alt="">
+                        <div class="info">
+                            <h4 class="title">youtube clone</h4>
+                            <p class="channel-name">modern web</p>
+                        </div>
+                </div>
+        </div>-->
+    </div>
+
+    
+<script src="script.js"></script>
+    
+</body>
+</html>
